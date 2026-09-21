@@ -1,40 +1,40 @@
 # Console Invaders 🚀
 
-Un clon del clásico juego arcade *Space Invaders*, desarrollado íntegramente en C# para ejecutarse en la consola de comandos. Este proyecto sirve como una práctica de Programación Orientada a Objetos (POO), aplicando conceptos como herencia, polimorfismo, sobrecarga de constructores y gestión de colisiones en un entorno de texto.
+A clone of the classic arcade game *Space Invaders*, developed entirely in C# to run in the command console. This project serves as an Object-Oriented Programming (OOP) practice, applying concepts such as inheritance, polymorphism, constructor overloading, and collision management in a text-based environment.
 
-## 👾 Características Principales
+## 👾 Key Features
 
-* **Sistema de Flotas:** Un bloque organizado de 30 enemigos distribuidos en 3 filas, cada una con un tipo de alienígena distinto (diferentes formas y colores).
-* **Inteligencia de Enjambre:** Los enemigos se mueven en bloque, rebotando contra los bordes de la pantalla y descendiendo gradualmente.
-* **El OVNI Escurridizo:** Aparición aleatoria de un OVNI en la parte superior de la pantalla que cruza rápidamente de lado a lado.
-* **Motor de Renderizado en Consola:** Sistema de dibujado y borrado optimizado por coordenadas (sin parpadeos excesivos ni necesidad de limpiar toda la pantalla en cada fotograma).
-* **Control de Jugador:** Movimiento fluido de la nave defensora utilizando la lectura asíncrona de teclas.
+* **Fleet System:** An organized block of 30 enemies distributed across 3 rows, each featuring a distinct alien type (different shapes and colors).
+* **Swarm Intelligence:** Enemies move as a single block, bouncing off the screen edges and gradually descending.
+* **The Elusive UFO:** Random appearance of a UFO at the top of the screen that quickly crosses from side to side.
+* **Console Rendering Engine:** Optimized coordinate-based drawing and erasing system (preventing excessive flickering and removing the need to clear the entire screen every frame).
+* **Player Control:** Fluid movement of the defender ship using asynchronous keystroke reading.
 
-## 💻 Tecnologías y Conceptos
+## 💻 Technologies & Concepts
 
-* **Lenguaje:** C# (.NET)
-* **Paradigma:** Programación Orientada a Objetos (POO).
-* **Conceptos clave aplicados:**
-  * **Herencia:** Clases derivadas (`Nave`, `Ovni`, `Enemigo1`, `Enemigo2`) que heredan de clases base.
-  * **Sobrecarga de constructores:** Flexibilidad para instanciar objetos en posiciones predeterminadas o en coordenadas específicas.
-  * **Matrices (Arrays):** Gestión de la flota de enemigos utilizando arrays y matemáticas modulares para simular una cuadrícula 2D.
+* **Language:** C# (.NET)
+* **Paradigm:** Object-Oriented Programming (OOP).
+* **Key applied concepts:**
+  * **Inheritance:** Derived classes (`Nave`, `Ovni`, `Enemigo1`, `Enemigo2`) inheriting from base classes.
+  * **Constructor Overloading:** Flexibility to instantiate objects at default positions or specific coordinates.
+  * **Arrays:** Enemy fleet management using arrays and modular mathematics to simulate a 2D grid.
 
-## 🎮 Controles del Juego
+## 🎮 Game Controls
 
-* **Flecha Izquierda (`<-`):** Mover la nave hacia la izquierda.
-* **Flecha Derecha (`->`):** Mover la nave hacia la derecha.
-* **Espacio:** Disparar.
-* **ESC:** Salir de la partida y volver al menú principal.
+* **Left Arrow (`<-`):** Move the ship left.
+* **Right Arrow (`->`):** Move the ship right.
+* **Spacebar:** Shoot.
+* **ESC:** Exit the game and return to the main menu.
 
-## 🛠️ Requisitos Previos
+## 🛠️ Prerequisites
 
-Para compilar y ejecutar este proyecto, necesitarás tener instalado:
+To compile and run this project, you will need to have installed:
 
-* [.NET SDK](https://dotnet.microsoft.com/download) (versión 6.0 o superior recomendada).
-* Un terminal o consola compatible (se recomienda la consola nativa de Windows para un renderizado óptimo de los caracteres ASCII y los colores).
+* [.NET SDK](https://dotnet.microsoft.com/download) (version 6.0 or higher recommended).
+* A compatible terminal or console (the native Windows console is recommended for optimal rendering of ASCII characters and colors).
 
-## 🚀 Instalación y Ejecución
+## 🚀 Installation & Execution
 
-1. Clona este repositorio en tu máquina local:
+1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/TU_USUARIO/TU_REPOSITORIO.git](https://github.com/TU_USUARIO/TU_REPOSITORIO.git)
+   git clone [https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git](https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git)
