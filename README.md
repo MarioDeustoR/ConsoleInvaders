@@ -11,3 +11,15 @@ A lightweight, purely console-based arcade engine built natively in C# targeting
 * 🎮 **Non-blocking Input/Output:** Custom game loop reading standard console inputs (`Console.ReadKey`) asynchronously without stalling physics updates or enemy movements.
 * 🖥️ **Direct Buffer Manipulation:** Uses `Console.SetCursorPosition` and custom string rendering to draw and wipe frames, managing a localized render pipeline directly on the terminal buffer.
 * 💾 **In-Memory State Management:** Handles dynamic array sorting to update and display high scores in real-time during the application session.
+
+## ⚙️ Installation & Usage
+
+### Prerequisites
+- Visual Studio 2022 (or any C# IDE) / .NET SDK.
+
+### Running the Game
+1. Clone the repository:
+   `git clone https://github.com/tu-usuario/ConsoleInvaders.git`
+2. Open the solution (`.sln`) in Visual Studio.
+3. Press `F5` to run it directly in your terminal, or use the command line:
+   `dotnet run`
